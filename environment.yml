@@ -1,0 +1,15 @@
+name: thermal-battery-sim
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10  # Or your preferred Python version
+  - mfem
+  - pyyaml
+  - h5py
+  - numpy
+  - matplotlib
+  - pyvista
+  - vtk
+  - paraview # ParaView might be tricky to install directly via conda on all systems/environments.
+             # For Colab, apt-get was used. For a local conda env, you might need specific channels or builds.
